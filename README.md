@@ -255,7 +255,7 @@ The project was developed collaboratively using Git feature branches and GitHub 
 The following output shows the number of commits attributed to each contributor:
 
 ```text
-  10 FaratBabayev
+  12 FaratBabayev
   3 Farid-Guliyev
   3 elgunns
 ```
