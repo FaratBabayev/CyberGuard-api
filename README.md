@@ -9,6 +9,21 @@ The prototype allows users to retrieve, create, update, and delete security inci
 **Important:** All incident data is stored in memory and resets whenever the server restarts. The prototype does not use a persistent database or a real authentication system.
 
 ## Installation and Setup
+``Prerequisites``
+
+Before starting, make sure Python 3.10 or newer is installed.
+
+Download and install Python from https://www.python.org/downloads/.
+
+On Windows, make sure to select Add Python to PATH during installation.
+
+Open a terminal and verify the installation:
+
+python --version
+
+You should see Python 3.10 or a newer version.
+
+You will also need Git to clone the repository.
 
 ### 1. Clone the repository
 
@@ -255,7 +270,7 @@ The project was developed collaboratively using Git feature branches and GitHub 
 The following output shows the number of commits attributed to each contributor:
 
 ```text
-  12 FaratBabayev
+  13 FaratBabayev
   3 Farid-Guliyev
   3 elgunns
 ```

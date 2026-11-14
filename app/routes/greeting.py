@@ -8,17 +8,24 @@ router = APIRouter(prefix="/api/v1", tags=["greeting"])
 
 PROJECT_NAME = "CyberGuard"
 PROJECT_DESCRIPTION = (
-    "CyberGuard is an AI-powered security log analyzer. Students and junior analysts "
-    "upload Linux SSH authentication logs, and the system detects suspicious activity "
-    "such as brute-force logins and records it as incidents."
+    "CyberGuard is an AI-powered security log analyzer designed to help "
+    "users identify suspicious activity in uploaded log files. It supports "
+    "the planned analysis of authentication, application error, and web "
+    "server logs using predefined detection rules. Detected patterns are "
+    "presented as security incidents for further investigation. "
+    "This prototype demonstrates the incident management REST API "
+    "using mocked data."
 )
 API_VERSION = "v1"
 
 # TODO: replace with your real names, student IDs and what each person built.
 TEAM = [
-    ("Babayev Farat", "22781", "Greeting page and incident read endpoints"),
-    ("Guliyev Farid", "21464", "Incident create, update and delete with validation"),
-    ("Atayev Elgun", "20561", "Authentication, role checks and documentation"),
+    ("Babayev Farat", "22781", "Main application setup, centralized error handling, response formatting, "
+      "automated testing, project integration, and pull request reviews and merges"),
+    ("Guliyev Farid", "21464", "HTML greeting endpoint, incident API routes and CRUD operations, "
+      "README documentation, and application requirements"),
+    ("Atayev Elgun", "20561", "Authentication, role-based access control, mock data, request validation, "
+      "development requirements, Git ignore configuration, and contributors documentation"),
 ]
 
 ENDPOINTS = [
